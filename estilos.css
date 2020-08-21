@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding: 0;
+}
+h1{
+    font-size: 35px;
+    font-family: sans-serif ;
+    font-weight: bold;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+header,section,footer,aside,nav,article,hgroup{
+    display: block;
+}
+body{
+    text-align: center;
+}
+.agrupar{
+    width: 960px;
+    border: 1px solid black;
+    margin:15px auto;
+    padding: 15px;
+}
+.header{
+    background: pink;
+    border: 1px solid black;
+    padding: 15px;
+}
+.header h1{
+    text-align: left;
+}
+
+.menu{
+    background: greenyellow;
+    padding: 5px 15px;
+    text-align: left;
+    border: 1px solid black;
+
+}
+.menu li{
+    list-style: none;
+    padding: 5px;
+    font:bold 14px verdana;
+    display: inline-block;
+    
+}
+
+.seccion{
+    margin:20px;
+    width: 450px;
+    border: 1px solid black;
+    float: left;
+    background: pink;    
+}
+
+article{
+    background: red;
+    border: 1px solid black;
+    padding: 15px;
+    margin: 15px;
+}
+
+article footer{
+    text-align: right;
+
+}
+
+time{
+    color:white;
+
+}
+.columna{
+    
+    width: 420px;  
+    border: 1px solid black;
+    float: left;
+    background: pink;
+    margin: 20px;  
+}
+.columna article{
+    border: 1px solid black;
+    padding: 15px;
+    background: blue;
+    margin: 15px;
+    
+    
+
+}
+
+.pie{
+    clear: both;
+    padding: 20px;
+    background: pink;
+    border: 1px solid black;
+}
+
